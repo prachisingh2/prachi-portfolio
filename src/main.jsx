@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import { createRoot } from 'react-dom/client';
 
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 import {
 
   ArrowDown, ArrowUpRight, Github, Linkedin, Mail, Download, Menu, X,
@@ -1391,6 +1393,8 @@ function App() {
         </div>
 
       )}
+
+      <SpeedInsights />
 
     </div>
 
