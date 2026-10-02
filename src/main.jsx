@@ -1260,7 +1260,7 @@ function App() {
 
                 <h3>Bachelor of Technology</h3>
 
-                <p>Computer Engineering · 2022 · CGPA 8.75 / 10</p>
+                <p>Computer Engineering · CGPA 8.75 / 10</p>
 
               </div>
 
