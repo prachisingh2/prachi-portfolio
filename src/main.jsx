@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { createRoot } from 'react-dom/client';
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import {
 
   ArrowDown, ArrowUpRight, Github, Linkedin, Mail, Download, Menu, X,
@@ -111,8 +111,6 @@ const experience = [
     scope: 'Started my engineering career building Java enterprise features and learning how software moves from development through testing and release.',
 
     wins: [
-
-      ['5+', 'features shipped', 'across Java enterprise applications'],
 
       ['20+', 'defects resolved', 'through debugging, validation and root-cause analysis'],
 
@@ -534,7 +532,10 @@ function App() {
 
     <div className="site" style={{ '--mx': `${cursor.x}px`, '--my': `${cursor.y}px` }}>
 
-      <div className="cursor-glow" />
+      
+       <SpeedInsights />
+       
+       <div className="cursor-glow" />
 
       <div className="grain" />
 
@@ -1260,7 +1261,7 @@ function App() {
 
                 <h3>Bachelor of Technology</h3>
 
-                <p>Computer Engineering · CGPA 8.75 / 10</p>
+                <p>Computer Science and Engineering · CGPA 8.75 / 10</p>
 
               </div>
 
